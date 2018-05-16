@@ -1,0 +1,14 @@
+# JavaMailSender setting
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.163.com
+    username:  
+    password:  
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+       
+logging:
+  path: /myLog
